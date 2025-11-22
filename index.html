@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--& ===============> Google Fonts <============== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--^ =========> Font Awesome StyleSheet <================ -->
+    <link rel="stylesheet" href="src/assets/libs/css/all.min.css" />
+    <!--* ==========> Bootstrap StyleSheet <====================== -->
+    <link rel="stylesheet" href="src/assets/libs/css/bootstrap.min.css" />
+    <!--! ==========> Main StyleSheet <============================ -->
+    <link rel="stylesheet" href="src/assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="src/assets/images/DiaaEldeen.ico"
+      type="image/x-icon"
+    />
+    <title>Yummy — Eng. Diaa Eldeen</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left-nav">
+        <ul>
+          <li>
+            <a href="#" class="Home"><i class="fas fa-home me-2"></i>Home</a>
+          </li>
+          <li>
+            <a href="#" class="Search"
+              ><i class="fas fa-search me-2"></i>Search</a
+            >
+          </li>
+          <li>
+            <a href="#" class="Categories"
+              ><i class="fas fa-th-large me-2"></i>Categories</a
+            >
+          </li>
+          <li>
+            <a href="#" class="Area"
+              ><i class="fas fa-globe-americas me-2"></i>Area</a
+            >
+          </li>
+          <li>
+            <a href="#" class="Ingredients"
+              ><i class="fas fa-list me-2"></i>Ingredients</a
+            >
+          </li>
+          <li>
+            <a href="#" class="ContactUs"
+              ><i class="fas fa-envelope me-2"></i>Contact Us</a
+            >
+          </li>
+        </ul>
+        <div class="nav-footer">
+          <div class="nav-social text-center mb-3">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="copyright">
+            <p>© 2025 <span style="color: #d4af37" class="fw-bold">Eng.Diaa Eldeen </span><br />All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+      <div class="right-nav">
+        <img src="src/assets/images/logo.png" alt="Logo" />
+        <i class="fas fa-bars open-close-icon"></i>
+        <div class="bottom-nav-icons">
+          <i class="fas fa-globe d-block mb-3" style="color: #d4af37"></i>
+          <i class="fas fa-share-nodes" style="color: #d4af37"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5">
+      <div class="loading d-none">
+        <div class="loader"></div>
+      </div>
+      <div class="container">
+        <div class="row search-row">
+          <div class="search-btn"></div>
+        </div>
+        <div class="row details-row gy-4 p-3 d-none"></div>
+        <div class="row myCards gy-4"></div>
+      </div>
+    </section>
+
+    <!--? =======> Bootstrap JS <========= -->
+    <script src="src/assets/libs/js/bootstrap.bundle.min.js"></script>
+    <!--! ========> Main JS <=============== -->
+    <script type="module" src="src/assets/js/main.js"></script>
+  </body>
+</html>
